@@ -1,0 +1,2248 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~ Probability and Statistics ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Homework # 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Alina Kuralova ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   171044094 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ ~~~~~~~ Question 1 ~~~~~~~ 
+
+Counties of the dataset:
+
+Afghanistan
+Africa
+Albania
+Algeria
+Andorra
+Angola
+Anguilla
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Asia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Costa Rica
+Cote d'Ivoire
+Croatia
+Cuba
+Curacao
+Cyprus
+Czechia
+Democratic Republic of Congo
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Europe
+European Union
+Faeroe Islands
+Falkland Islands
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+International
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia (country)
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+North America
+North Macedonia
+Northern Cyprus
+Norway
+Oceania
+Oman
+Pakistan
+Palestine
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russia
+Rwanda
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South America
+South Korea
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor
+Togo
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turks and Caicos Islands
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican
+Venezuela
+Vietnam
+World
+Yemen
+Zambia
+Zimbabwe
+In TOTAL --->  219 Countries
+
+ ~~~~~~~ Question 2 ~~~~~~~ 
+
+Earliest date data in dataset:
+
+Argentina --> 2020-01-01
+
+ ~~~~~~~ Question 3 ~~~~~~~ 
+
+How many cases are confirmed for each country so far?:
+
+Afghanistan --> [58730.]
+Africa --> [4497207.]
+Albania --> [130409.]
+Algeria --> [120736.]
+Andorra --> [13024.]
+Angola --> [25492.]
+Anguilla --> EMPTY
+Antigua and Barbuda --> [1227.]
+Argentina --> [2845872.]
+Armenia --> [212878.]
+Aruba --> EMPTY
+Asia --> [36576350.]
+Australia --> [29663.]
+Austria --> [606954.]
+Azerbaijan --> [311465.]
+Bahamas --> [9976.]
+Bahrain --> [170335.]
+Bangladesh --> [742400.]
+Barbados --> [3820.]
+Belarus --> [351674.]
+Belgium --> [972041.]
+Belize --> [12599.]
+Benin --> [7720.]
+Bermuda --> EMPTY
+Bhutan --> [1018.]
+Bolivia --> [297185.]
+Bosnia and Herzegovina --> [194733.]
+Botswana --> [45855.]
+Brazil --> [14308215.]
+Brunei --> [223.]
+Bulgaria --> [397100.]
+Burkina Faso --> [13231.]
+Burundi --> [3805.]
+Cambodia --> [9359.]
+Cameroon --> [65998.]
+Canada --> [1180065.]
+Cape Verde --> [22094.]
+Cayman Islands --> EMPTY
+Central African Republic --> [6224.]
+Chad --> [4752.]
+Chile --> [1162811.]
+China --> [102872.]
+Colombia --> [2757274.]
+Comoros --> [3829.]
+Congo --> [10084.]
+Costa Rica --> [238760.]
+Cote d'Ivoire --> [45820.]
+Croatia --> [321372.]
+Cuba --> [100318.]
+Curacao --> EMPTY
+Cyprus --> [61576.]
+Czechia --> [1618068.]
+Democratic Republic of Congo --> [29498.]
+Denmark --> [247704.]
+Djibouti --> [10746.]
+Dominica --> [173.]
+Dominican Republic --> [263944.]
+Ecuador --> [372754.]
+Egypt --> [221570.]
+El Salvador --> [68468.]
+Equatorial Guinea --> [7559.]
+Eritrea --> [3605.]
+Estonia --> [120000.]
+Eswatini --> [18440.]
+Ethiopia --> [250955.]
+Europe --> [44063857.]
+European Union --> [30134156.]
+Faeroe Islands --> EMPTY
+Falkland Islands --> EMPTY
+Fiji --> [87.]
+Finland --> [85607.]
+France --> [5534656.]
+Gabon --> [22433.]
+Gambia --> [5857.]
+Georgia --> [302785.]
+Germany --> [3291293.]
+Ghana --> [91928.]
+Gibraltar --> EMPTY
+Greece --> [331730.]
+Greenland --> EMPTY
+Grenada --> [159.]
+Guatemala --> [221307.]
+Guernsey --> EMPTY
+Guinea --> [21885.]
+Guinea-Bissau --> [3724.]
+Guyana --> [12600.]
+Haiti --> [12944.]
+Honduras --> [205696.]
+Hong Kong --> EMPTY
+Hungary --> [767190.]
+Iceland --> [6390.]
+India --> [16960172.]
+Indonesia --> [1636792.]
+International --> [721.]
+Iran --> [2377039.]
+Iraq --> [1025288.]
+Ireland --> [246204.]
+Isle of Man --> EMPTY
+Israel --> [837974.]
+Italy --> [3949517.]
+Jamaica --> [44867.]
+Japan --> [563998.]
+Jersey --> EMPTY
+Jordan --> [700423.]
+Kazakhstan --> [358834.]
+Kenya --> [156318.]
+Kosovo --> [102720.]
+Kuwait --> [265404.]
+Kyrgyzstan --> [93603.]
+Laos --> [247.]
+Latvia --> [114955.]
+Lebanon --> [519615.]
+Lesotho --> [10723.]
+Liberia --> [2097.]
+Libya --> [174752.]
+Liechtenstein --> [2866.]
+Lithuania --> [240522.]
+Luxembourg --> [66007.]
+Macao --> EMPTY
+Madagascar --> [35262.]
+Malawi --> [34011.]
+Malaysia --> [390252.]
+Maldives --> [27621.]
+Mali --> [13560.]
+Malta --> [30149.]
+Marshall Islands --> [4.]
+Mauritania --> [18240.]
+Mauritius --> [1206.]
+Mexico --> [2326738.]
+Micronesia (country) --> [1.]
+Moldova --> [248898.]
+Monaco --> [2429.]
+Mongolia --> [30483.]
+Montenegro --> [96499.]
+Montserrat --> EMPTY
+Morocco --> [509037.]
+Mozambique --> [69643.]
+Myanmar --> [142704.]
+Namibia --> [47671.]
+Nauru --> EMPTY
+Nepal --> [297087.]
+Netherlands --> [1478144.]
+New Zealand --> [2601.]
+Nicaragua --> [6835.]
+Niger --> [5158.]
+Nigeria --> [164684.]
+North America --> [37121529.]
+North Macedonia --> [150274.]
+Northern Cyprus --> EMPTY
+Norway --> [110390.]
+Oceania --> [42985.]
+Oman --> [185278.]
+Pakistan --> [790016.]
+Palestine --> [290259.]
+Panama --> [362696.]
+Papua New Guinea --> [10602.]
+Paraguay --> [265296.]
+Peru --> [1754150.]
+Philippines --> [989380.]
+Poland --> [2751632.]
+Portugal --> [833964.]
+Qatar --> [201496.]
+Romania --> [1044722.]
+Russia --> [4699988.]
+Rwanda --> [24535.]
+Saint Helena --> EMPTY
+Saint Kitts and Nevis --> [44.]
+Saint Lucia --> [4463.]
+Saint Vincent and the Grenadines --> [1830.]
+Samoa --> [3.]
+San Marino --> [5047.]
+Sao Tome and Principe --> [2297.]
+Saudi Arabia --> [411263.]
+Senegal --> [40082.]
+Serbia --> [677972.]
+Seychelles --> [5206.]
+Sierra Leone --> [4044.]
+Singapore --> [60966.]
+Slovakia --> [379476.]
+Slovenia --> [236613.]
+Solomon Islands --> [20.]
+Somalia --> [13459.]
+South Africa --> [1574370.]
+South America --> [24159002.]
+South Korea --> [118887.]
+South Sudan --> [10515.]
+Spain --> [3468617.]
+Sri Lanka --> [100586.]
+Sudan --> [33673.]
+Suriname --> [9996.]
+Sweden --> [938343.]
+Switzerland --> [646509.]
+Syria --> [21999.]
+Taiwan --> [1097.]
+Tajikistan --> [13308.]
+Tanzania --> [509.]
+Thailand --> [53022.]
+Timor --> [1739.]
+Togo --> [12787.]
+Tonga --> EMPTY
+Trinidad and Tobago --> [9487.]
+Tunisia --> [298572.]
+Turkey --> [4591416.]
+Turks and Caicos Islands --> EMPTY
+Uganda --> [41575.]
+Ukraine --> [2071142.]
+United Arab Emirates --> [508925.]
+United Kingdom --> [4418710.]
+United States --> [32045113.]
+Uruguay --> [182326.]
+Uzbekistan --> [88679.]
+Vanuatu --> [4.]
+Vatican --> [27.]
+Venezuela --> [190523.]
+Vietnam --> [2833.]
+World --> [1.46461651e+08]
+Yemen --> [6105.]
+Zambia --> [91317.]
+Zimbabwe --> [38064.]
+
+ ~~~~~~~ Question 4 ~~~~~~~ 
+
+Total death confirmed for each country so far:
+
+Afghanistan --> [2572.]
+Africa --> [119841.]
+Albania --> [2372.]
+Algeria --> [3198.]
+Andorra --> [124.]
+Angola --> [577.]
+Anguilla --> EMPTY
+Antigua and Barbuda --> [31.]
+Argentina --> [61474.]
+Armenia --> [4001.]
+Aruba --> EMPTY
+Asia --> [490544.]
+Australia --> [910.]
+Austria --> [10070.]
+Azerbaijan --> [4342.]
+Bahamas --> [196.]
+Bahrain --> [620.]
+Bangladesh --> [10952.]
+Barbados --> [44.]
+Belarus --> [2483.]
+Belgium --> [23990.]
+Belize --> [321.]
+Benin --> [97.]
+Bermuda --> EMPTY
+Bhutan --> [1.]
+Bolivia --> [12812.]
+Bosnia and Herzegovina --> [8203.]
+Botswana --> [691.]
+Brazil --> [389492.]
+Brunei --> [3.]
+Bulgaria --> [15859.]
+Burkina Faso --> [156.]
+Burundi --> [6.]
+Cambodia --> [71.]
+Cameroon --> [991.]
+Canada --> [23912.]
+Cape Verde --> [201.]
+Cayman Islands --> EMPTY
+Central African Republic --> [85.]
+Chad --> [169.]
+Chile --> [25742.]
+China --> [4850.]
+Colombia --> [70886.]
+Comoros --> [146.]
+Congo --> [139.]
+Costa Rica --> [3143.]
+Cote d'Ivoire --> [281.]
+Croatia --> [6815.]
+Cuba --> [581.]
+Curacao --> EMPTY
+Cyprus --> [298.]
+Czechia --> [28920.]
+Democratic Republic of Congo --> [756.]
+Denmark --> [2475.]
+Djibouti --> [132.]
+Dominica --> EMPTY
+Dominican Republic --> [3451.]
+Ecuador --> [18158.]
+Egypt --> [12998.]
+El Salvador --> [2098.]
+Equatorial Guinea --> [107.]
+Eritrea --> [10.]
+Estonia --> [1137.]
+Eswatini --> [671.]
+Ethiopia --> [3531.]
+Europe --> [998761.]
+European Union --> [676248.]
+Faeroe Islands --> EMPTY
+Falkland Islands --> EMPTY
+Fiji --> [2.]
+Finland --> [903.]
+France --> [102872.]
+Gabon --> [138.]
+Gambia --> [173.]
+Georgia --> [4007.]
+Germany --> [81610.]
+Ghana --> [777.]
+Gibraltar --> EMPTY
+Greece --> [9950.]
+Greenland --> EMPTY
+Grenada --> [1.]
+Guatemala --> [7395.]
+Guernsey --> EMPTY
+Guinea --> [140.]
+Guinea-Bissau --> [67.]
+Guyana --> [279.]
+Haiti --> [252.]
+Honduras --> [5095.]
+Hong Kong --> EMPTY
+Hungary --> [26420.]
+Iceland --> [29.]
+India --> [192311.]
+Indonesia --> [44500.]
+International --> [15.]
+Iran --> [69120.]
+Iraq --> [15217.]
+Ireland --> [4872.]
+Isle of Man --> EMPTY
+Israel --> [6350.]
+Italy --> [119021.]
+Jamaica --> [756.]
+Japan --> [9890.]
+Jersey --> EMPTY
+Jordan --> [8563.]
+Kazakhstan --> [3311.]
+Kenya --> [2603.]
+Kosovo --> [2115.]
+Kuwait --> [1511.]
+Kyrgyzstan --> [1578.]
+Laos --> EMPTY
+Latvia --> [2101.]
+Lebanon --> [7118.]
+Lesotho --> [316.]
+Liberia --> [85.]
+Libya --> [2947.]
+Liechtenstein --> [57.]
+Lithuania --> [3841.]
+Luxembourg --> [790.]
+Macao --> EMPTY
+Madagascar --> [593.]
+Malawi --> [1147.]
+Malaysia --> [1426.]
+Maldives --> [71.]
+Mali --> [462.]
+Malta --> [412.]
+Marshall Islands --> EMPTY
+Mauritania --> [454.]
+Mauritius --> [16.]
+Mexico --> [214853.]
+Micronesia (country) --> EMPTY
+Moldova --> [5709.]
+Monaco --> [31.]
+Mongolia --> [78.]
+Montenegro --> [1463.]
+Montserrat --> EMPTY
+Morocco --> [8988.]
+Mozambique --> [807.]
+Myanmar --> [3206.]
+Namibia --> [624.]
+Nauru --> EMPTY
+Nepal --> [3136.]
+Netherlands --> [17269.]
+New Zealand --> [26.]
+Nicaragua --> [181.]
+Niger --> [191.]
+Nigeria --> [2061.]
+North America --> [840674.]
+North Macedonia --> [4650.]
+Northern Cyprus --> EMPTY
+Norway --> [736.]
+Oceania --> [1041.]
+Oman --> [1942.]
+Pakistan --> [16999.]
+Palestine --> [3151.]
+Panama --> [6207.]
+Papua New Guinea --> [102.]
+Paraguay --> [5802.]
+Peru --> [59440.]
+Philippines --> [16674.]
+Poland --> [65222.]
+Portugal --> [16959.]
+Qatar --> [418.]
+Romania --> [27267.]
+Russia --> [106108.]
+Rwanda --> [328.]
+Saint Helena --> EMPTY
+Saint Kitts and Nevis --> EMPTY
+Saint Lucia --> [70.]
+Saint Vincent and the Grenadines --> [10.]
+Samoa --> EMPTY
+San Marino --> [89.]
+Sao Tome and Principe --> [35.]
+Saudi Arabia --> [6887.]
+Senegal --> [1099.]
+Serbia --> [6196.]
+Seychelles --> [26.]
+Sierra Leone --> [79.]
+Singapore --> [30.]
+Slovakia --> [11458.]
+Slovenia --> [4203.]
+Solomon Islands --> EMPTY
+Somalia --> [689.]
+South Africa --> [54125.]
+South America --> [648591.]
+South Korea --> [1813.]
+South Sudan --> [114.]
+Spain --> [77591.]
+Sri Lanka --> [638.]
+Sudan --> [2300.]
+Suriname --> [195.]
+Sweden --> [13923.]
+Switzerland --> [10594.]
+Syria --> [1526.]
+Taiwan --> [12.]
+Tajikistan --> [90.]
+Tanzania --> [21.]
+Thailand --> [129.]
+Timor --> [3.]
+Togo --> [121.]
+Tonga --> EMPTY
+Trinidad and Tobago --> [157.]
+Tunisia --> [10231.]
+Turkey --> [38011.]
+Turks and Caicos Islands --> EMPTY
+Uganda --> [341.]
+Ukraine --> [43884.]
+United Arab Emirates --> [1569.]
+United Kingdom --> [127670.]
+United States --> [571921.]
+Uruguay --> [2283.]
+Uzbekistan --> [642.]
+Vanuatu --> [1.]
+Vatican --> EMPTY
+Venezuela --> [2028.]
+Vietnam --> [35.]
+World --> [3099467.]
+Yemen --> [1175.]
+Zambia --> [1245.]
+Zimbabwe --> [1556.]
+
+ ~~~~~~~ Question 5 ~~~~~~~ 
+
+What are the average, minimum, maximum and variation values of the reproduction rates for each country?
+
+Country ------ Min ----- Max ------ Average ------ Variation 
+Afghanistan    [0.51]     [1.53]     [1.03612821]     0.24895524355678597
+Albania    [0.66]     [1.65]     [1.05217722]     0.21869819443552016
+Algeria    [0.73]     [2.]     [1.04314861]     0.2552222476655726
+Andorra    [0.09]     [1.68]     [0.95866162]     0.24937987469633038
+Angola    [0.88]     [1.3]     [1.07731013]     0.22257383966244726
+Antigua and Barbuda    [0.33]     [1.33]     [0.75]     0.17635195347310165
+Argentina    [0.86]     [2.17]     [1.13982412]     0.19696087490348468
+Armenia    [0.63]     [1.6]     [1.08203008]     0.24798176345386078
+Australia    [0.38]     [2.45]     [1.03683824]     0.3276966806378571
+Austria    [0.44]     [3.13]     [1.1072439]     0.34445107042757467
+Azerbaijan    [0.41]     [1.86]     [1.0980102]     0.24020042799728586
+Bahamas    [0.19]     [2.21]     [1.02290419]     0.2804930679182176
+Bahrain    [0.85]     [1.48]     [1.0852451]     0.19039360215830803
+Bangladesh    [0.79]     [2.8]     [1.11367454]     0.31118939079983426
+Barbados    [0.45]     [1.2]     [0.89392982]     0.2253026933531011
+Belarus    [0.66]     [2.66]     [1.09059278]     0.30050747222888197
+Belgium    [0.62]     [2.77]     [1.1265534]     0.33682942385373116
+Belize    [0.58]     [1.45]     [0.93528958]     0.2419861722187303
+Benin    [0.83]     [1.15]     [0.96454286]     0.22221858370855507
+Bhutan    [0.26]     [1.48]     [0.79642857]     0.1910058164278621
+Bolivia    [0.71]     [1.58]     [1.09485788]     0.24357687003788941
+Bosnia and Herzegovina    [0.83]     [1.6]     [1.13156566]     0.2011251758087201
+Botswana    [0.81]     [1.34]     [1.05858586]     0.23650923650923653
+Brazil    [0.9]     [2.7]     [1.16595062]     0.27298618750763964
+Brunei    [0.]     [0.81]     [0.20626904]     0
+Bulgaria    [0.59]     [1.8]     [1.10502513]     0.23723782641165525
+Burkina Faso    [0.71]     [1.46]     [1.0098731]     0.25057800855065165
+Burundi    [0.6]     [1.27]     [0.93477419]     0.24742666249086548
+Cambodia    [0.03]     [1.7]     [0.61455013]     0.14124241380224206
+Cameroon    [0.31]     [1.53]     [0.84239075]     0.1889460154241645
+Canada    [0.72]     [2.85]     [1.13348894]     0.2940051560741216
+Cape Verde    [0.89]     [1.34]     [1.07889197]     0.19575253924284394
+Central African Republic    [0.17]     [1.65]     [0.63063037]     0.15018278826202947
+Chad    [0.51]     [1.37]     [0.97132394]     0.24826927667701118
+Chile    [0.8]     [2.86]     [1.12436725]     0.295803859116329
+China    [0.19]     [3.45]     [1.00449561]     0.3908183921341816
+Colombia    [0.68]     [2.22]     [1.134425]     0.2276691729323308
+Comoros    [0.6]     [1.24]     [0.81363914]     0.11680831504099362
+Congo    [0.2]     [0.94]     [0.54803763]     0
+Costa Rica    [0.74]     [1.53]     [1.12130982]     0.17296389588581024
+Cote d'Ivoire    [0.57]     [1.48]     [1.06851662]     0.23584497344088137
+Croatia    [0.13]     [3.35]     [1.11764411]     0.4084835203586857
+Cuba    [0.54]     [2.24]     [1.09402564]     0.23283896908575571
+Cyprus    [0.62]     [1.84]     [1.10597468]     0.227115594679689
+Czechia    [0.64]     [2.49]     [1.11135802]     0.27767999022124434
+Democratic Republic of Congo    [0.93]     [1.28]     [1.07862694]     0.1985398021667452
+Denmark    [0.67]     [2.08]     [1.07936275]     0.24490533314062723
+Djibouti    [0.35]     [1.9]     [1.05651715]     0.24938923091957393
+Dominica    [0.06]     [0.29]     [0.15330189]     0
+Dominican Republic    [0.8]     [2.31]     [1.07702771]     0.2502099076406381
+Ecuador    [0.9]     [2.82]     [1.10695]     0.2367857142857143
+Egypt    [0.45]     [1.72]     [1.07660891]     0.2277657666511068
+El Salvador    [0.34]     [1.73]     [1.03537037]     0.2459194700574011
+Equatorial Guinea    [0.1]     [1.37]     [0.67856749]     0.14562500951250323
+Eritrea    [0.29]     [1.26]     [0.77906752]     0.24831449019811228
+Estonia    [0.42]     [1.92]     [1.0809901]     0.23204063582536913
+Eswatini    [0.12]     [1.82]     [0.97215686]     0.24856009819658204
+Ethiopia    [0.22]     [2.29]     [1.08514905]     0.26998644986449866
+Finland    [0.65]     [1.55]     [1.06841975]     0.2267448967118934
+France    [0.63]     [3.02]     [1.17722488]     0.2927323213199775
+Gabon    [0.82]     [1.53]     [1.15708108]     0.19002417051197537
+Gambia    [0.67]     [1.5]     [0.9723913]     0.2505797101449276
+Georgia    [0.63]     [2.37]     [1.10157216]     0.27616612056794265
+Germany    [0.65]     [3.12]     [1.15297362]     0.3688779745434422
+Ghana    [0.83]     [1.58]     [1.1340051]     0.2129547471162378
+Greece    [0.69]     [1.57]     [1.10365432]     0.211991199119912
+Grenada    [0.]     [0.22]     [0.03634146]     0
+Guatemala    [0.92]     [1.54]     [1.1070557]     0.20380664823071282
+Guinea    [1.]     [1.3]     [1.08955614]     0
+Guinea-Bissau    [0.14]     [1.25]     [0.6075419]     0.10810134109509725
+Guyana    [0.51]     [1.39]     [1.03432277]     0.23271309823257982
+Haiti    [0.93]     [1.4]     [1.09193732]     0.2157916157916158
+Honduras    [0.97]     [1.45]     [1.10956298]     0.07996978771897278
+Hungary    [0.46]     [2.36]     [1.12007557]     0.27936798717655137
+Iceland    [0.22]     [2.1]     [0.95795567]     0.26299945265462504
+India    [0.86]     [2.21]     [1.18641089]     0.3094366508611159
+Indonesia    [0.85]     [2.12]     [1.10684864]     0.19457304050467267
+Iran    [0.74]     [4.84]     [1.13180523]     0.3825472231648004
+Iraq    [0.67]     [1.97]     [1.11881481]     0.211991199119912
+Ireland    [0.45]     [2.87]     [1.08663366]     0.32385819227084
+Israel    [0.41]     [2.94]     [1.07701235]     0.32750275027502745
+Italy    [0.63]     [3.55]     [1.12917453]     0.4045173736562737
+Jamaica    [0.63]     [1.86]     [1.08255376]     0.22713242326754196
+Japan    [0.43]     [2.03]     [1.10598592]     0.2391659762496548
+Jordan    [0.62]     [1.84]     [1.11143939]     0.24487917146144994
+Kazakhstan    [0.73]     [1.7]     [1.07897959]     0.2129547471162378
+Kenya    [0.62]     [1.56]     [1.08890909]     0.23785173160173162
+Kosovo    [0.96]     [1.36]     [1.13069767]     0.08034435206383635
+Kuwait    [0.71]     [2.43]     [1.09007426]     0.2646979338132324
+Kyrgyzstan    [0.63]     [1.61]     [1.05837209]     0.2472587058681769
+Latvia    [0.7]     [1.76]     [1.09298995]     0.2460159740769338
+Lebanon    [0.73]     [1.61]     [1.10960298]     0.18951149957408986
+Lesotho    [0.26]     [1.55]     [0.9015331]     0.2508710801393728
+Liberia    [0.03]     [1.33]     [0.70581967]     0.2027771539785912
+Libya    [0.9]     [1.39]     [1.09848024]     0.21684335384387277
+Liechtenstein    [0.19]     [1.77]     [1.0153112]     0.24913554633471646
+Lithuania    [0.64]     [1.66]     [1.08419192]     0.23881217235647617
+Luxembourg    [0.54]     [2.62]     [1.10501247]     0.25548628428927683
+Madagascar    [0.25]     [1.8]     [0.86215426]     0.2178723404255319
+Malawi    [0.59]     [2.04]     [1.05993976]     0.30939467841153134
+Malaysia    [0.54]     [2.43]     [1.12095355]     0.28231219138021957
+Maldives    [0.77]     [1.82]     [1.06958791]     0.23976023976023977
+Mali    [0.76]     [1.42]     [1.08101333]     0.19854545454545455
+Malta    [0.19]     [1.58]     [0.95934177]     0.2506200603996659
+Mauritania    [0.65]     [1.81]     [1.02284024]     0.24284058785314205
+Mauritius    [0.01]     [1.3]     [0.40974359]     0.06460351987344275
+Mexico    [0.86]     [1.92]     [1.10795]     0.22415413533834588
+Moldova    [0.69]     [2.07]     [1.07893671]     0.22061299235365933
+Monaco    [0.16]     [1.56]     [0.97488525]     0.2506039689387403
+Mongolia    [0.23]     [1.55]     [0.85645161]     0.2502501293772641
+Montenegro    [-0.01]     [2.36]     [0.9175969]     0.2932615710058776
+Morocco    [0.74]     [1.91]     [1.07989899]     0.2283787239483442
+Mozambique    [0.72]     [1.57]     [1.0649711]     0.23523498366423723
+Myanmar    [0.4]     [2.19]     [0.96029891]     0.2975654543300557
+Namibia    [0.78]     [1.59]     [1.07578073]     0.24881506090808417
+Nepal    [0.57]     [2.19]     [1.12054286]     0.30565697912402784
+Netherlands    [0.62]     [2.87]     [1.12160194]     0.3234356176032882
+New Zealand    [0.19]     [1.94]     [0.88174242]     0.22912671013936833
+Nicaragua    [0.08]     [1.52]     [0.75147929]     0.2503116604919846
+Niger    [0.45]     [1.54]     [0.89036458]     0.19310269799825933
+Nigeria    [0.6]     [1.93]     [1.04508997]     0.25036440251238967
+North Macedonia    [0.66]     [1.86]     [1.08242424]     0.23528321186549034
+Norway    [0.6]     [3.06]     [1.09063107]     0.28937235726265564
+Oman    [0.63]     [1.57]     [1.16579082]     0.1716947648624667
+Pakistan    [0.65]     [2.48]     [1.11444169]     0.25479303235682627
+Palestine    [0.25]     [4.08]     [1.11231362]     0.423250205390507
+Panama    [0.71]     [2.25]     [1.0656391]     0.28032392539136786
+Papua New Guinea    [0.37]     [1.57]     [0.81228137]     0.2124633558761211
+Paraguay    [0.59]     [2.63]     [1.13075916]     0.2450770224402578
+Peru    [0.92]     [1.9]     [1.17379052]     0.1555361596009975
+Philippines    [0.84]     [2.38]     [1.12834158]     0.26973441761049555
+Poland    [0.71]     [2.5]     [1.13554455]     0.2866312065449721
+Portugal    [0.47]     [3.23]     [1.08609877]     0.3798068695758465
+Qatar    [0.46]     [2.84]     [1.06434889]     0.2828215586836276
+Romania    [0.76]     [2.31]     [1.10356436]     0.26853057514188144
+Russia    [0.88]     [2.51]     [1.11842893]     0.3893142144638404
+Rwanda    [0.44]     [1.79]     [1.05911227]     0.24154853526171174
+Saint Lucia    [0.75]     [1.47]     [1.04792899]     0.2507748661594815
+Saint Vincent and the Grenadines    [0.73]     [1.23]     [0.94771654]     0.21747281589801276
+San Marino    [0.06]     [1.41]     [0.77895782]     0.24894139723220127
+Sao Tome and Principe    [0.34]     [1.29]     [0.70866477]     0.13221153846153846
+Saudi Arabia    [0.77]     [2.42]     [1.08576733]     0.29231260595042136
+Senegal    [0.7]     [1.95]     [1.04040816]     0.25040450962993893
+Serbia    [0.59]     [2.13]     [1.11095238]     0.27529879976322713
+Seychelles    [0.1]     [1.35]     [0.60248252]     0.234977303398356
+Sierra Leone    [0.71]     [1.37]     [1.00169916]     0.246401394313814
+Singapore    [0.48]     [2.16]     [1.02971292]     0.3025311807969892
+Slovakia    [0.52]     [1.65]     [1.0991]     0.22954887218045114
+Slovenia    [0.37]     [1.85]     [1.09476543]     0.23440899645520105
+Somalia    [0.42]     [1.38]     [0.8017027]     0.22342342342342342
+South Africa    [0.5]     [2.78]     [1.090225]     0.28305137844611533
+South Korea    [0.24]     [5.76]     [1.08763466]     0.4791371177886994
+South Sudan    [0.68]     [1.08]     [0.88163324]     0.15907519019859698
+Spain    [0.57]     [3.24]     [1.1865625]     0.3918848470806302
+Sri Lanka    [0.6]     [1.63]     [1.03220812]     0.2477880678368918
+Sudan    [0.51]     [1.83]     [1.04248634]     0.24706190583127483
+Suriname    [0.55]     [2.01]     [1.04925]     0.2625293887147335
+Sweden    [0.62]     [2.42]     [1.21771845]     0.17704273261994188
+Switzerland    [0.46]     [3.1]     [1.14714286]     0.36266719951103693
+Syria    [0.23]     [1.56]     [1.05262048]     0.23545845011465802
+Taiwan    [0.18]     [1.22]     [0.802325]     0.23432957393483705
+Tajikistan    [0.]     [2.8]     [0.70231638]     0.22823738416478612
+Tanzania    [0.]     [1.12]     [0.0302973]     0.008064161722698308
+Thailand    [0.44]     [2.22]     [1.07513648]     0.3200992555831265
+Timor    [0.28]     [1.79]     [1.17485714]     0.2186335403726708
+Togo    [0.96]     [1.14]     [1.06731844]     0.09069996713769307
+Trinidad and Tobago    [-0.01]     [2.28]     [0.86934726]     0.32764206526048145
+Tunisia    [0.5]     [1.63]     [1.09116751]     0.23249505947998605
+Turkey    [0.32]     [5.17]     [1.13313283]     0.5021095452198335
+Uganda    [0.63]     [1.76]     [1.0588604]     0.24582824582824583
+Ukraine    [0.79]     [2.57]     [1.12412214]     0.22690450225891884
+United Arab Emirates    [0.78]     [2.22]     [1.096]     0.2936340852130326
+United Kingdom    [0.5]     [3.33]     [1.09973558]     0.3819972196478221
+United States    [0.73]     [3.67]     [1.16516908]     0.5143465394018084
+Uruguay    [0.58]     [1.54]     [1.10778894]     0.2004987152386618
+Uzbekistan    [0.76]     [1.67]     [1.07197436]     0.25063608199854986
+Venezuela    [0.61]     [2.29]     [1.09622449]     0.2615937679419594
+Vietnam    [0.22]     [1.91]     [0.83542929]     0.2227848101265823
+World    [0.57]     [3.56]     [1.16287281]     0.270213996529786
+Yemen    [0.36]     [1.81]     [0.95307018]     0.23899435783985867
+Zambia    [0.67]     [1.56]     [0.97745098]     0.21694520504831147
+Zimbabwe    [0.61]     [1.7]     [1.08772727]     0.23882287924841114
+
+ ~~~~~~~ Question 6 ~~~~~~~ 
+
+What are the average, minimum, maximum and variation values of the icu patients
+
+Country ------ Min ----- Max ------ Average ------ Variation 
+Austria    [6.]     [709.]     [235.33420366]     45063.1655024401
+Belgium    [23.]     [1474.]     [466.935]     163406.31656641606
+Bulgaria    [8.]     [813.]     [229.58201058]     56433.379198068855
+Canada    [0.]     [1367.]     [402.03649635]     95097.51817696278
+Cyprus    [0.]     [39.]     [10.60837438]     133.58699142492245
+Czechia    [0.]     [2064.]     [538.29468599]     366152.1405528067
+Denmark    [0.]     [141.]     [38.00298507]     1465.8113683081597
+Estonia    [0.]     [76.]     [18.62440191]     496.0096669076222
+Finland    [0.]     [83.]     [27.07228916]     512.7447532063738
+France    [1.]     [7019.]     [2522.27619048]     3463536.6633935673
+Germany    [200.]     [5745.]     [2184.12911392]     3159854.4325258625
+Iceland    [0.]     [14.]     [1.69527897]     9.161055202012728
+Ireland    [4.]     [221.]     [62.57364341]     3434.017230991686
+Israel    [92.]     [420.]     [219.148]     8289.202907630523
+Italy    [26.]     [4068.]     [1682.36190476]     1906306.6849414706
+Luxembourg    [0.]     [50.]     [16.05714286]     212.34994885782476
+Netherlands    [7.]     [1424.]     [426.98081535]     120414.54770798747
+Portugal    [0.]     [904.]     [247.23786408]     56315.120898589754
+Romania    [6.]     [1531.]     [707.20844327]     199040.800351803
+Slovenia    [0.]     [212.]     [74.54074074]     6151.090539053906
+Spain    [522.]     [4894.]     [2423.87162162]     1171497.9902095974
+Sweden    [0.]     [551.]     [205.0911271]     24085.13109896698
+United Kingdom    [60.]     [4077.]     [1234.25647668]     1304877.6924904112
+United States    [7779.]     [30028.]     [15059.27436823]     48130245.78676817
+
+ ~~~~~~~ Question 7 ~~~~~~~ 
+
+What are the average, minimum, maximum and variation values of the hosp patients
+ 
+Country ------ Min ----- Max ------ Average ------ Variation 
+Austria    [52.]     [3985.]     [1057.37075718]     1122932.307205446
+Belgium    [130.]     [7461.]     [2171.675]     3461257.4630325814
+Bulgaria    [132.]     [10649.]     [2921.60582011]     8995115.459594684
+Canada    [4.]     [4879.]     [1868.9756691]     1798603.1701382708
+Croatia    [4.]     [2976.]     [883.06233062]     756768.0640391186
+Cyprus    [0.]     [271.]     [66.42610837]     5472.077242595634
+Czechia    [0.]     [9464.]     [3008.91545894]     10102075.438356085
+Denmark    [9.]     [964.]     [231.14285714]     60600.307889125805
+Estonia    [1.]     [737.]     [190.85441527]     52743.301720889336
+Finland    [0.]     [313.]     [132.48995984]     8177.129939111284
+France    [1.]     [33466.]     [17702.86698337]     108829265.71559778
+Hungary    [57.]     [12553.]     [3505.7704918]     13430508.533483045
+Iceland    [0.]     [80.]     [14.49514563]     392.2962425923591
+Ireland    [6.]     [2020.]     [391.80147059]     199957.07842535048
+Israel    [10.]     [2389.]     [895.93301435]     343710.62379952497
+Italy    [127.]     [38507.]     [16466.86904762]     158875722.64868167
+Latvia    [2.]     [1155.]     [324.87532468]     141685.05212391776
+Lithuania    [1.]     [2571.]     [1248.61363636]     556804.8801179737
+Luxembourg    [0.]     [247.]     [93.41854637]     4548.786690343951
+Netherlands    [1.]     [3284.]     [1104.35576923]     614790.5381835032
+Norway    [0.]     [325.]     [103.85326087]     7503.847618765549
+Poland    [1550.]     [34864.]     [10617.05509642]     91618138.15165213
+Portugal    [0.]     [6869.]     [1575.59951456]     2757926.668904873
+Slovakia    [0.]     [3836.]     [1344.82768362]     1973655.480137962
+Slovenia    [5.]     [1324.]     [430.44938272]     230240.20349590515
+Spain    [4636.]     [32023.]     [14715.62837838]     44088260.670481704
+Sweden    [1.]     [3005.]     [1257.69784173]     776748.3267501383
+United Kingdom    [770.]     [39248.]     [11439.17391304]     103165718.06198439
+United States    [25322.]     [129800.]     [59843.19494585]     1077008408.8169308
+
+ ~~~~~~~ Question 8 ~~~~~~~ 
+
+What are the average, minimum, maximum and variation values of the weekly icu
+ 
+Country ------ Min ----- Max ------ Average ------ Variation 
+Cyprus    [0.986]     [26.632]     [8.49231707]     66.34390243902439
+Czechia    [14.02]     [2988.198]     [956.76505263]     980262.5269423559
+Estonia    [0.998]     [56.895]     [17.44513636]     309.1855179704017
+France    [76.934]     [4037.019]     [1287.30327586]     1136174.019661222
+Greece    [1.945]     [381.193]     [101.3140678]     13887.951490356516
+Iceland    [0.937]     [0.937]     [0.937]     13887.951490356516
+Ireland    [0.]     [66.64]     [18.34540741]     336.10342417889586
+Israel    [5.]     [1186.]     [365.83050847]     108650.14319111631
+Latvia    [0.989]     [161.165]     [69.71910256]     3696.5789473684213
+Lithuania    [8.769]     [128.608]     [69.60855556]     1047.3789173789173
+Malta    [0.858]     [12.013]     [4.88217241]     5.901477832512315
+Netherlands    [1.969]     [738.25]     [179.36198333]     25671.756779661016
+Norway    [0.]     [77.77]     [12.66639344]     244.3857923497268
+Slovenia    [0.]     [138.869]     [44.75624138]     2344.4367816091954
+Spain    [2.963]     [2793.476]     [485.175625]     316601.44444444444
+Sweden    [0.]     [282.611]     [102.67868254]     7038.232462877624
+
+ ~~~~~~~ Question 9 ~~~~~~~ 
+
+What are the average, minimum, maximum and variation values of the weekly hospital admissions for each ecounty?
+
+Country ------ Min ----- Max ------ Average ------ Variation 
+Belgium    [70.408]     [4759.588]     [1172.22558621]     1262922.9960677556
+Croatia    [0.]     [2361.091]     [649.66166038]     467956.05224963714
+Cyprus    [0.986]     [173.601]     [48.63805172]     2938.435874168179
+Czechia    [8.011]     [14510.383]     [5055.72248276]     27458554.877495464
+Denmark    [0.995]     [993.757]     [218.24856667]     57486.0279661017
+Estonia    [0.]     [542.004]     [131.89096667]     28107.47429378531
+France    [508.17]     [20232.672]     [7144.50960345]     30178642.41984271
+Germany    [26.193]     [7635.249]     [2525.905125]     5978269.260912699
+Greece    [7.779]     [3319.877]     [877.96553061]     1024838.1717687073
+Iceland    [0.937]     [49.669]     [7.6846]     135.27666666666664
+Ireland    [3.979]     [889.202]     [160.20829091]     39023.799999999996
+Israel    [22.]     [1985.]     [743.50847458]     295291.1852717709
+Italy    [338.594]     [18468.58]     [6217.48942623]     28722927.432240438
+Lithuania    [0.974]     [779.443]     [236.8142]     60723.08408163265
+Malta    [0.]     [89.241]     [22.14743103]     568.4225650332728
+Netherlands    [4.922]     [3232.552]     [920.40131667]     610223.35
+Norway    [0.]     [290.879]     [66.65990164]     4847.471038251366
+Portugal    [9.904]     [884.396]     [275.32145313]     54162.471974206346
+Romania    [2.986]     [51112.807]     [11622.56384091]     208463223.53276953
+Slovenia    [0.]     [899.674]     [278.55922414]     96178.06533575317
+Spain    [17.78]     [30640.324]     [5290.33682813]     34186495.265625
+United Kingdom    [694.]     [28791.]     [8180.98214286]     56882141.69058441
+United States    [21480.]     [116374.]     [54619.525]     908953512.7685897
+
+ ~~~~~~~ Question 10 ~~~~~~~ 
+
+What are the average, minimum, maximum and variation values of new tests per day for each country?
+
+Country ------ Min ----- Max ------ Average ------ Variation 
+Albania    [1.]     [4562.]     [1418.49760766]     1610255.809346781
+Argentina    [1.]     [63643.]     [18894.94063927]     201319808.28479776
+Armenia    [117.]     [6354.]     [2822.66887417]     2096657.2629580575
+Australia    [4357.]     [101274.]     [41380.00404858]     409257216.3373819
+Austria    [2376.]     [2945871.]     [77435.16449086]     34140524418.88125
+Bahrain    [232.]     [23177.]     [10113.43809524]     18720450.533575978
+Bangladesh    [3.]     [34968.]     [12707.67554479]     43256780.31194903
+Belarus    [1000.]     [21452.]     [9494.30769231]     20733282.295625944
+Belgium    [82.]     [87170.]     [29150.29256595]     397996236.827661
+Bhutan    [2.]     [15058.]     [1666.12466125]     4820744.125721692
+Bolivia    [1.]     [13347.]     [2755.81300813]     6027893.087221634
+Bosnia and Herzegovina    [-75493.]     [16699.]     [2175.36956522]     24832445.89201581
+Bulgaria    [295.]     [20611.]     [6565.04761905]     22793121.390216157
+Canada    [18.]     [154862.]     [73275.31325301]     1679910345.8291717
+Cape Verde    [50.]     [1619.]     [435.53090909]     56107.50542800265
+Chile    [2759.]     [79262.]     [33085.21164021]     348526856.69779515
+Colombia    [10885.]     [93133.]     [42633.30124224]     281712665.6628645
+Costa Rica    [1.]     [6308.]     [1857.37956204]     1643130.5531422466
+Cote d'Ivoire    [68.]     [5774.]     [1562.96901408]     1295529.7589241667
+Croatia    [8.]     [12596.]     [4089.19889503]     12095383.888309024
+Cuba    [107.]     [22418.]     [8735.18987342]     43338461.48416115
+Cyprus    [400.]     [69068.]     [12249.35218509]     272081675.5740996
+Czechia    [4537.]     [369485.]     [67556.96153846]     4632901772.672334
+Democratic Republic of Congo    [36.]     [1217.]     [374.27377522]     46319.98552414586
+Denmark    [1.]     [208205.]     [57636.13033175]     3017039256.132617
+Dominican Republic    [134.]     [11329.]     [3462.4340176]     3899715.0346041056
+Ecuador    [-3743.]     [12181.]     [2992.08461538]     4896868.257603322
+El Salvador    [405.]     [5498.]     [2373.84042553]     207354.12380141843
+Estonia    [8.]     [9448.]     [2975.6]     5171424.999522673
+Ethiopia    [61.]     [25158.]     [6498.29048843]     20310776.902512386
+Fiji    [-357.]     [674.]     [113.03503185]     15481.056276836043
+Finland    [14.]     [28826.]     [10377.20095694]     53613768.563836016
+France    [6518.]     [742424.]     [213846.45321637]     28948081915.49194
+Gambia    [2.]     [1301.]     [202.34353741]     45095.14779085695
+Ghana    [206.]     [12735.]     [2757.14790997]     2790121.06837465
+Greece    [-45335.]     [130207.]     [20232.98324022]     412413133.9492982
+Guatemala    [1.]     [12618.]     [2824.8716707]     6005585.160676085
+Hungary    [39.]     [42553.]     [11541.47330097]     114039412.56619541
+Iceland    [7.]     [4525.]     [799.59904535]     507543.0158842539
+India    [157.]     [1740550.]     [702539.2845953]     186368092354.79575
+Indonesia    [25.]     [87194.]     [22842.20529801]     288841049.79159975
+Iran    [9135.]     [92186.]     [30982.55135135]     280886262.98783785
+Iraq    [698.]     [53021.]     [22294.91216216]     178062201.26683462
+Ireland    [946.]     [29972.]     [10861.4925]     39522708.32074562
+Israel    [13.]     [126327.]     [37103.82242991]     948078660.9004793
+Italy    [-47510.]     [378463.]     [132968.63120567]     11025113609.49874
+Jamaica    [34.]     [2976.]     [639.43162393]     174669.0704119438
+Japan    [4.]     [103676.]     [24032.53758542]     633319945.9660499
+Jordan    [9583.]     [54052.]     [27246.5872093]     96162007.20287637
+Kazakhstan    [207.]     [68801.]     [24236.5721519]     185104646.3773951
+Kenya    [21.]     [19403.]     [3249.71590909]     5238315.553116883
+Kuwait    [1990.]     [12279.]     [5898.63081395]     7163289.743770764
+Latvia    [10.]     [24155.]     [5092.1097852]     26548544.32763129
+Libya    [1.]     [7698.]     [2367.57680251]     3686956.628516788
+Liechtenstein    [1.]     [382.]     [115.02102102]     6963.942327870039
+Lithuania    [114.]     [20849.]     [6742.16161616]     19430086.41432042
+Luxembourg    [1.]     [16175.]     [6217.36842105]     21096503.643316925
+Madagascar    [42.]     [3284.]     [687.43298969]     256075.08140034365
+Malawi    [1.]     [1995.]     [304.8342246]     71706.18204818584
+Malaysia    [3.]     [126964.]     [22584.14805195]     401942949.470211
+Maldives    [22.]     [6659.]     [1873.68463612]     1717025.9137903403
+Malta    [5.]     [4760.]     [2017.11583924]     1240868.5149854906
+Mauritania    [1.]     [1195.]     [344.54411765]     87790.10250219492
+Mexico    [25.]     [48241.]     [12684.78616352]     137231019.40795943
+Mongolia    [644.]     [57833.]     [15857.64]     105883959.2252349
+Morocco    [1.]     [25162.]     [13708.18811881]     62729900.862786524
+Mozambique    [-87.]     [5923.]     [1309.7539267]     845547.8657981888
+Myanmar    [63.]     [83383.]     [7817.50974026]     87387077.2670058
+Namibia    [15.]     [2778.]     [1121.07407407]     403490.73753009975
+Nepal    [1.]     [20118.]     [5745.19117647]     18699518.081297874
+New Zealand    [25.]     [25005.]     [4927.76716418]     14663822.358798819
+Nigeria    [504.]     [29602.]     [4333.67283951]     19008722.904723566
+North Macedonia    [113.]     [5569.]     [1795.08616188]     1275937.2203053874
+Norway    [636.]     [37943.]     [12870.38961039]     83730973.08218344
+Oman    [1314.]     [6173.]     [3459.31034483]     788042.3932244404
+Pakistan    [16.]     [68002.]     [27284.98659517]     190989437.21756175
+Palestine    [804.]     [11118.]     [5701.78632479]     3983993.241700598
+Panama    [31.]     [19830.]     [5715.32923833]     18401344.467689812
+Paraguay    [1.]     [6664.]     [2541.7799511]     2735322.922048037
+Peru    [1.]     [23483.]     [7312.1006865]     34836840.06782063
+Philippines    [344.]     [61556.]     [27797.3002611]     186005628.32583764
+Poland    [-239172.]     [327863.]     [36958.59383754]     974731807.8654675
+Portugal    [40.]     [96469.]     [24152.37259615]     285531113.48252434
+Qatar    [172.]     [10044.]     [4589.37468354]     2318917.6409818158
+Romania    [276.]     [60206.]     [17342.36102236]     127426211.16732202
+Russia    [2243.]     [648370.]     [309748.0626703]     20906529189.037045
+Rwanda    [-1884.]     [21919.]     [3192.28813559]     5125212.750028825
+Saudi Arabia    [160.]     [73912.]     [39456.82451923]     359674995.29202384
+Senegal    [1.]     [3029.]     [1156.23317308]     371534.79128243745
+Serbia    [1.]     [22837.]     [8928.67064439]     28672856.924758196
+Slovakia    [24.]     [790993.]     [77612.01456311]     22570013323.148205
+Slovenia    [2.]     [8063.]     [2686.3317757]     4789452.746809954
+South Africa    [4.]     [77167.]     [25797.1925]     227231051.14831454
+South Korea    [5.]     [67176.]     [18665.21134021]     261928715.99139565
+South Sudan    [116.]     [7340.]     [686.49295775]     709428.567806841
+Sri Lanka    [1.]     [19687.]     [6091.8783455]     32536697.780286036
+Sweden    [7566.]     [48658.]     [28475.8]     150257413.8810036
+Switzerland    [1529.]     [57595.]     [18819.82335329]     150467806.06780133
+Taiwan    [1.]     [3244.]     [436.65584416]     150665.69691804942
+Thailand    [1.]     [36098.]     [7332.07894737]     50752661.31683054
+Togo    [1.]     [2132.]     [741.39608802]     200943.36233760006
+Trinidad and Tobago    [1.]     [30892.]     [354.85207101]     2941243.9365090514
+Tunisia    [5238.]     [8507.]     [6468.25]     1105936.2
+Turkey    [7533.]     [322128.]     [114796.9744898]     5215793402.551777
+Uganda    [23.]     [8223.]     [2661.37051793]     1582742.8021673306
+Ukraine    [2914.]     [84054.]     [24255.9254902]     249649728.40781224
+United Arab Emirates    [75.]     [266023.]     [99576.40389294]     4701544400.914521
+United Kingdom    [11896.]     [1893830.]     [357211.74677003]     118956487507.53157
+United States    [372.]     [2311182.]     [972348.34615385]     339586859051.5136
+Uruguay    [145.]     [19414.]     [3941.27027027]     15537796.79450298
+Vietnam    [10.]     [92374.]     [5753.29310345]     162909431.40381125
+Zambia    [17.]     [14995.]     [3652.06925208]     10678865.036857493
+Zimbabwe    [96.]     [5055.]     [1361.11594203]     1013960.4051230198
+
+ ~~~~~~~ Question 11 ~~~~~~~ 
+
+Total tests conducted for each country so far:
+
+Afghanistan --> EMPTY
+Africa --> EMPTY
+Albania --> [592932.]
+Algeria --> EMPTY
+Andorra --> [177079.]
+Angola --> EMPTY
+Anguilla --> EMPTY
+Antigua and Barbuda --> EMPTY
+Argentina --> [8275984.]
+Armenia --> [951500.]
+Aruba --> EMPTY
+Asia --> EMPTY
+Australia --> [16488916.]
+Austria --> [29597609.]
+Azerbaijan --> EMPTY
+Bahamas --> EMPTY
+Bahrain --> [3967761.]
+Bangladesh --> [5248270.]
+Barbados --> EMPTY
+Belarus --> [5723427.]
+Belgium --> [12155672.]
+Belize --> EMPTY
+Benin --> EMPTY
+Bermuda --> EMPTY
+Bhutan --> [681537.]
+Bolivia --> [1079928.]
+Bosnia and Herzegovina --> [884114.]
+Botswana --> EMPTY
+Brazil --> [6421441.]
+Brunei --> EMPTY
+Bulgaria --> [2419383.]
+Burkina Faso --> EMPTY
+Burundi --> EMPTY
+Cambodia --> EMPTY
+Cameroon --> EMPTY
+Canada --> [30411387.]
+Cape Verde --> EMPTY
+Cayman Islands --> EMPTY
+Central African Republic --> EMPTY
+Chad --> EMPTY
+Chile --> [12574563.]
+China --> [1.6e+08]
+Colombia --> [14095309.]
+Comoros --> EMPTY
+Congo --> EMPTY
+Costa Rica --> [763383.]
+Cote d'Ivoire --> [577798.]
+Croatia --> [1734234.]
+Cuba --> [3450918.]
+Curacao --> EMPTY
+Cyprus --> [4770915.]
+Czechia --> EMPTY
+Democratic Republic of Congo --> EMPTY
+Denmark --> [24322447.]
+Djibouti --> EMPTY
+Dominica --> EMPTY
+Dominican Republic --> [1378669.]
+Ecuador --> [1186632.]
+Egypt --> EMPTY
+El Salvador --> [892564.]
+Equatorial Guinea --> EMPTY
+Eritrea --> EMPTY
+Estonia --> [1249765.]
+Eswatini --> EMPTY
+Ethiopia --> [2528645.]
+Europe --> EMPTY
+European Union --> EMPTY
+Faeroe Islands --> EMPTY
+Falkland Islands --> EMPTY
+Fiji --> [42492.]
+Finland --> [4337679.]
+France --> EMPTY
+Gabon --> EMPTY
+Gambia --> [59489.]
+Georgia --> EMPTY
+Germany --> [53992148.]
+Ghana --> [1055797.]
+Gibraltar --> EMPTY
+Greece --> [7692455.]
+Greenland --> EMPTY
+Grenada --> EMPTY
+Guatemala --> [1166672.]
+Guernsey --> EMPTY
+Guinea --> EMPTY
+Guinea-Bissau --> EMPTY
+Guyana --> EMPTY
+Haiti --> EMPTY
+Honduras --> EMPTY
+Hong Kong --> [11193673.]
+Hungary --> [4755087.]
+Iceland --> [335032.]
+India --> [2.74445653e+08]
+Indonesia --> [9468108.]
+International --> EMPTY
+Iran --> [14854140.]
+Iraq --> [8989021.]
+Ireland --> [4351054.]
+Isle of Man --> EMPTY
+Israel --> [15880436.]
+Italy --> [56250055.]
+Jamaica --> [320168.]
+Japan --> [10550284.]
+Jersey --> EMPTY
+Jordan --> [6546769.]
+Kazakhstan --> [9624583.]
+Kenya --> [1624663.]
+Kosovo --> EMPTY
+Kuwait --> [2256129.]
+Kyrgyzstan --> EMPTY
+Laos --> EMPTY
+Latvia --> [2133594.]
+Lebanon --> EMPTY
+Lesotho --> EMPTY
+Liberia --> EMPTY
+Libya --> EMPTY
+Liechtenstein --> [38302.]
+Lithuania --> [2669896.]
+Luxembourg --> [2598881.]
+Macao --> EMPTY
+Madagascar --> [172412.]
+Malawi --> [225576.]
+Malaysia --> [8849606.]
+Maldives --> [710527.]
+Mali --> EMPTY
+Malta --> [853286.]
+Marshall Islands --> EMPTY
+Mauritania --> [254282.]
+Mauritius --> EMPTY
+Mexico --> [6050643.]
+Micronesia (country) --> EMPTY
+Moldova --> EMPTY
+Monaco --> EMPTY
+Mongolia --> [2592363.]
+Montenegro --> EMPTY
+Montserrat --> EMPTY
+Morocco --> [5687764.]
+Mozambique --> [507194.]
+Myanmar --> [2482290.]
+Namibia --> [376317.]
+Nauru --> EMPTY
+Nepal --> [2379402.]
+Netherlands --> [8598225.]
+New Zealand --> [1992707.]
+Nicaragua --> EMPTY
+Niger --> EMPTY
+Nigeria --> [1870915.]
+North America --> EMPTY
+North Macedonia --> [690644.]
+Northern Cyprus --> EMPTY
+Norway --> [4955100.]
+Oceania --> EMPTY
+Oman --> EMPTY
+Pakistan --> [11431241.]
+Palestine --> EMPTY
+Panama --> [2326906.]
+Papua New Guinea --> EMPTY
+Paraguay --> [1039588.]
+Peru --> [3195388.]
+Philippines --> [10666642.]
+Poland --> [13503310.]
+Portugal --> [10047412.]
+Qatar --> [1854566.]
+Romania --> [7203810.]
+Russia --> [1.27175519e+08]
+Rwanda --> [1273629.]
+Saint Helena --> EMPTY
+Saint Kitts and Nevis --> EMPTY
+Saint Lucia --> EMPTY
+Saint Vincent and the Grenadines --> EMPTY
+Samoa --> EMPTY
+San Marino --> EMPTY
+Sao Tome and Principe --> EMPTY
+Saudi Arabia --> [16414039.]
+Senegal --> [480993.]
+Serbia --> [3741146.]
+Seychelles --> EMPTY
+Sierra Leone --> EMPTY
+Singapore --> [9278789.]
+Slovakia --> [31976150.]
+Slovenia --> [1149750.]
+Solomon Islands --> EMPTY
+Somalia --> EMPTY
+South Africa --> [10447673.]
+South America --> EMPTY
+South Korea --> [8513591.]
+South Sudan --> [146233.]
+Spain --> [38644733.]
+Sri Lanka --> [2503762.]
+Sudan --> EMPTY
+Suriname --> EMPTY
+Sweden --> EMPTY
+Switzerland --> [6285821.]
+Syria --> EMPTY
+Taiwan --> [201735.]
+Tajikistan --> EMPTY
+Tanzania --> EMPTY
+Thailand --> [3343428.]
+Timor --> EMPTY
+Togo --> [303231.]
+Tonga --> EMPTY
+Trinidad and Tobago --> [123913.]
+Tunisia --> [1249409.]
+Turkey --> [45040704.]
+Turks and Caicos Islands --> EMPTY
+Uganda --> [998791.]
+Ukraine --> [9089301.]
+United Arab Emirates --> [40925902.]
+United Kingdom --> [1.43949153e+08]
+United States --> [4.04496912e+08]
+Uruguay --> [1675577.]
+Uzbekistan --> EMPTY
+Vanuatu --> EMPTY
+Vatican --> EMPTY
+Venezuela --> EMPTY
+Vietnam --> [2482302.]
+World --> EMPTY
+Yemen --> EMPTY
+Zambia --> [1365448.]
+Zimbabwe --> [478757.]
+
+ ~~~~~~~ Question 12 ~~~~~~~ 
+
+What are the average, minimum, maximum and variation values of the positive rates of the tests for each country?
+
+Country ------ Min ----- Max ------ Average ------ Variation 
+Albania    [0.032]     [0.409]     [0.18843317]     0
+Andorra    [0.064]     [0.157]     [0.09215888]     0
+Argentina    [0.012]     [0.439]     [0.21909491]     0
+Armenia    [0.049]     [0.504]     [0.20426866]     0
+Australia    [0.]     [0.038]     [0.00201285]     0
+Austria    [0.004]     [0.247]     [0.05687313]     0
+Bahrain    [0.009]     [0.079]     [0.04005172]     0
+Bangladesh    [0.009]     [0.243]     [0.12844938]     0
+Belarus    [0.001]     [0.122]     [0.05635784]     0
+Belgium    [0.009]     [0.327]     [0.08339659]     0
+Bhutan    [0.]     [0.012]     [0.00218041]     0
+Bolivia    [0.06]     [0.636]     [0.29016625]     0
+Bosnia and Herzegovina    [0.011]     [0.742]     [0.17858511]     0
+Bulgaria    [0.012]     [0.406]     [0.12610027]     0
+Canada    [0.]     [0.14]     [0.03641818]     0
+Cape Verde    [0.071]     [0.216]     [0.14702484]     0
+Chile    [0.043]     [0.364]     [0.1175496]     0
+Colombia    [0.098]     [0.332]     [0.21783281]     0
+Costa Rica    [0.022]     [0.426]     [0.2227037]     0
+Cote d'Ivoire    [0.015]     [0.295]     [0.08249864]     0
+Croatia    [0.]     [0.363]     [0.11996324]     0
+Cuba    [0.001]     [0.077]     [0.01927506]     0
+Cyprus    [0.]     [0.06]     [0.01346997]     0
+Czechia    [0.017]     [0.321]     [0.14202632]     0
+Democratic Republic of Congo    [0.053]     [0.452]     [0.19435294]     0
+Denmark    [0.001]     [0.195]     [0.01807108]     0
+Dominican Republic    [0.084]     [0.404]     [0.19742092]     0
+Ecuador    [0.17]     [0.407]     [0.27329091]     0
+El Salvador    [0.011]     [0.175]     [0.074328]     0
+Estonia    [0.001]     [0.208]     [0.05899758]     0
+Ethiopia    [0.]     [0.257]     [0.08443216]     0
+Fiji    [0.]     [0.381]     [0.0040617]     0
+Finland    [0.001]     [0.118]     [0.02134951]     0
+France    [0.01]     [0.159]     [0.0584881]     0
+Gambia    [0.]     [0.51]     [0.07053684]     0
+Germany    [0.006]     [0.154]     [0.05625862]     0
+Ghana    [0.006]     [0.319]     [0.08345269]     0
+Greece    [0.001]     [0.105]     [0.03360294]     0
+Guatemala    [0.033]     [0.513]     [0.19492929]     0
+Hungary    [0.001]     [0.354]     [0.09640494]     0
+Iceland    [0.]     [0.132]     [0.01680097]     0
+India    [0.016]     [0.178]     [0.05696734]     0
+Indonesia    [0.082]     [0.424]     [0.16391899]     0
+Iran    [0.075]     [0.326]     [0.14297067]     0
+Iraq    [0.009]     [0.215]     [0.11385791]     0
+Ireland    [0.001]     [0.255]     [0.04795929]     0
+Israel    [0.003]     [0.13]     [0.04544762]     0
+Italy    [0.004]     [0.268]     [0.06689663]     0
+Jamaica    [0.006]     [0.29]     [0.10439018]     0
+Japan    [0.007]     [0.204]     [0.05478851]     0
+Jordan    [0.039]     [0.247]     [0.1259759]     0
+Kazakhstan    [0.005]     [0.228]     [0.03664899]     0
+Kenya    [0.011]     [0.192]     [0.06884507]     0
+Kuwait    [0.037]     [0.263]     [0.13482789]     0
+Latvia    [0.]     [0.119]     [0.03424818]     0
+Libya    [0.]     [0.268]     [0.08956024]     0
+Liechtenstein    [0.]     [0.219]     [0.06073273]     0
+Lithuania    [0.002]     [0.254]     [0.06313333]     0
+Luxembourg    [0.001]     [0.216]     [0.0308399]     0
+Madagascar    [0.]     [0.547]     [0.15173011]     0
+Malawi    [0.003]     [0.377]     [0.08907467]     0
+Malaysia    [0.]     [0.163]     [0.0355]     0
+Maldives    [0.]     [0.142]     [0.04386076]     0
+Malta    [0.]     [0.077]     [0.02715271]     0
+Mexico    [0.01]     [0.53]     [0.33367585]     0
+Mongolia    [0.]     [0.09]     [0.0099871]     0
+Morocco    [0.004]     [0.265]     [0.09049878]     0
+Mozambique    [0.003]     [0.336]     [0.09600522]     0
+Myanmar    [0.]     [0.218]     [0.04130696]     0
+Namibia    [0.]     [0.257]     [0.09409763]     0
+Nepal    [0.]     [0.252]     [0.07507223]     0
+Netherlands    [0.006]     [0.292]     [0.0902931]     0
+New Zealand    [0.]     [0.04]     [0.00223171]     0
+Nigeria    [0.013]     [0.298]     [0.10201081]     0
+North Macedonia    [0.048]     [0.398]     [0.17244032]     0
+Norway    [0.002]     [0.068]     [0.01740476]     0
+Oman    [0.28]     [0.361]     [0.33064706]     0
+Pakistan    [0.015]     [0.256]     [0.077885]     0
+Palestine    [0.093]     [0.317]     [0.18916256]     0
+Panama    [0.036]     [0.414]     [0.18162935]     0
+Paraguay    [0.008]     [0.446]     [0.18473762]     0
+Peru    [0.]     [0.377]     [0.1719536]     0
+Philippines    [0.024]     [0.241]     [0.07814324]     0
+Poland    [0.013]     [0.503]     [0.15601709]     0
+Portugal    [0.009]     [0.204]     [0.06268293]     0
+Qatar    [0.017]     [0.393]     [0.11058897]     0
+Romania    [0.016]     [0.298]     [0.12145363]     0
+Russia    [0.001]     [0.097]     [0.03351843]     0
+Rwanda    [0.001]     [0.06]     [0.01572654]     0
+Saudi Arabia    [0.001]     [0.194]     [0.03530562]     0
+Senegal    [0.]     [0.571]     [0.08220925]     0
+Serbia    [0.008]     [0.442]     [0.14175184]     0
+Singapore    [0.]     [0.3]     [0.02102695]     0
+Slovakia    [0.]     [0.178]     [0.04169458]     0
+Slovenia    [0.]     [0.324]     [0.11854028]     0
+South Africa    [0.015]     [0.326]     [0.11541667]     0
+South Korea    [0.001]     [0.049]     [0.01251333]     0
+South Sudan    [0.001]     [0.242]     [0.05203463]     0
+Spain    [0.001]     [0.429]     [0.07355932]     0
+Sri Lanka    [0.]     [0.334]     [0.0324119]     0
+Sweden    [0.007]     [0.247]     [0.08735766]     0
+Switzerland    [0.004]     [0.271]     [0.08184132]     0
+Taiwan    [0.]     [0.028]     [0.00511111]     0
+Thailand    [0.001]     [0.286]     [0.01946799]     0
+Togo    [0.]     [0.137]     [0.03569287]     0
+Trinidad and Tobago    [0.]     [0.496]     [0.1065971]     0
+Tunisia    [0.245]     [0.309]     [0.27435714]     0
+Turkey    [0.013]     [0.193]     [0.06159115]     0
+Uganda    [0.001]     [0.162]     [0.04595254]     0
+Ukraine    [0.037]     [0.504]     [0.18062264]     0
+United Arab Emirates    [0.]     [0.024]     [0.01057241]     0
+United Kingdom    [0.002]     [0.3]     [0.04478158]     0
+United States    [0.038]     [0.199]     [0.07764146]     0
+Uruguay    [0.]     [0.268]     [0.0491671]     0
+Vietnam    [0.]     [0.016]     [0.00148936]     0
+Zambia    [0.]     [0.301]     [0.06714031]     0
+Zimbabwe    [0.001]     [0.287]     [0.06278198]     0
+
+ ~~~~~~~ Question 13 ~~~~~~~ 
+
+What are the average, minimum, maximum and variation values of the tests per case for each country?
+
+Country ------ Min ----- Max ------ Average ------ Variation 
+Albania    [2.4]     [31.6]     [7.11039604]     25.407089158047317
+Andorra    [6.4]     [15.6]     [11.35607477]     5.584552988890848
+Argentina    [2.3]     [83.3]     [7.45578704]     108.3912037037037
+Armenia    [2.]     [20.4]     [7.07686567]     21.49869108323718
+Australia    [26.4]     [15342.2]     [2749.71311054]     6552616.798333025
+Austria    [4.1]     [249.1]     [64.83171642]     4007.2894376432446
+Bahrain    [12.6]     [110.9]     [31.7226601]     327.87321656632
+Bangladesh    [4.1]     [113.1]     [12.81407407]     176.37397628651755
+Belarus    [8.2]     [1424.2]     [41.67254902]     8935.833766922002
+Belgium    [3.1]     [111.1]     [26.4377129]     697.1701382707257
+Bhutan    [83.6]     [18720.3]     [2122.37130682]     15394726.362462768
+Bolivia    [1.6]     [16.8]     [4.91083123]     9.25973844235809
+Bosnia and Herzegovina    [1.3]     [87.4]     [11.82234043]     230.93621985815602
+Bulgaria    [2.5]     [85.]     [17.42384824]     225.74855661600094
+Canada    [7.1]     [181.7]     [50.42700229]     1878.4815674007518
+Cape Verde    [4.6]     [14.1]     [7.09627329]     2.725776397515528
+Chile    [2.7]     [23.3]     [12.05790885]     33.45504338551126
+Colombia    [3.]     [10.2]     [5.04006309]     3.1425548057341373
+Costa Rica    [2.3]     [45.5]     [8.18864198]     69.31292018090699
+Cote d'Ivoire    [3.4]     [65.2]     [20.36348774]     209.4539837107845
+Croatia    [2.8]     [2797.2]     [96.19019608]     128415.77260080937
+Cuba    [13.]     [1177.4]     [144.99254499]     30469.88755201018
+Cyprus    [16.7]     [2130.5]     [309.47441253]     132204.19054584226
+Czechia    [3.1]     [58.8]     [11.72017544]     145.5007921786846
+Democratic Republic of Congo    [2.2]     [19.]     [6.56875]     12.11611406555242
+Denmark    [5.1]     [964.]     [191.0877451]     29486.1200317965
+Dominican Republic    [2.5]     [12.]     [5.68596939]     3.6740892008977504
+Ecuador    [2.5]     [5.9]     [3.81590909]     0.6793482772934828
+El Salvador    [5.7]     [90.4]     [19.1856]     217.74712299465241
+Estonia    [4.8]     [1053.4]     [106.33478261]     31162.252143500486
+Ethiopia    [3.9]     [724.]     [42.03459596]     8800.68492520138
+Fiji    [2.6]     [2035.]     [477.55195531]     197851.76435879734
+Finland    [8.5]     [1443.8]     [150.40485437]     45120.43942078284
+France    [6.3]     [100.]     [30.23511905]     678.1782160625444
+Gambia    [2.]     [297.7]     [50.70549451]     3142.679562861381
+Germany    [6.5]     [166.7]     [47.9137931]     2406.7803992740473
+Ghana    [3.1]     [166.1]     [22.67595908]     512.0027805101973
+Greece    [9.5]     [768.2]     [92.18382353]     16524.873964204846
+Guatemala    [1.9]     [30.2]     [6.56489899]     15.817484976345735
+Hungary    [2.8]     [1042.3]     [68.91037037]     17209.92333455568
+Iceland    [7.6]     [3475.5]     [271.40486618]     242379.3092754139
+India    [5.6]     [62.]     [24.88517588]     239.53497968431577
+Indonesia    [2.4]     [12.2]     [6.72810127]     3.907498554263317
+Iran    [3.1]     [13.3]     [7.95626667]     5.673126559714795
+Iraq    [4.7]     [110.9]     [18.68981233]     403.3326991265243
+Ireland    [3.9]     [683.]     [75.07099237]     14163.519707119487
+Israel    [7.7]     [347.9]     [51.65190476]     4337.548874872145
+Italy    [3.7]     [272.2]     [56.63966346]     4978.439087117702
+Jamaica    [3.5]     [159.3]     [27.6627907]     1184.2399619766773
+Japan    [4.9]     [138.]     [29.00114943]     531.1666613697759
+Jordan    [4.]     [25.4]     [10.64277108]     40.64976268711209
+Kazakhstan    [4.4]     [203.]     [46.27045455]     846.8662575118271
+Kenya    [5.2]     [94.8]     [22.86816901]     290.2100421739476
+Kuwait    [3.8]     [26.8]     [9.40593472]     29.6902642362583
+Latvia    [8.4]     [5097.9]     [212.4836983]     172230.34548691474
+Libya    [3.7]     [965.]     [82.31533742]     34670.133000075744
+Liechtenstein    [4.6]     [1000.]     [79.41546763]     21863.933719450433
+Lithuania    [3.9]     [500.]     [79.20769231]     9650.445217849845
+Luxembourg    [4.6]     [969.6]     [103.65960591]     25084.320452472177
+Madagascar    [1.8]     [197.5]     [13.21038576]     424.5192878338279
+Malawi    [2.7]     [329.]     [35.55413333]     2095.373618538324
+Malaysia    [6.1]     [1881.5]     [210.78147268]     120020.1502544961
+Maldives    [7.]     [1125.9]     [47.55374677]     9400.527305833368
+Malta    [13.]     [6062.9]     [255.57524752]     481272.16256172763
+Mexico    [1.9]     [100.]     [9.01461864]     276.92377829356946
+Mongolia    [11.1]     [5979.6]     [655.32129032]     758491.6902387934
+Morocco    [3.8]     [253.6]     [30.95182482]     2327.7286451842624
+Mozambique    [3.]     [370.6]     [22.5075718]     1136.9384714229082
+Myanmar    [4.6]     [2531.5]     [285.97531646]     222666.3570323488
+Namibia    [3.9]     [937.1]     [31.52558824]     6370.297414541038
+Nepal    [4.]     [1179.5]     [44.8251269]     11600.809754459384
+Netherlands    [3.4]     [166.7]     [27.25]     1351.9809437386568
+New Zealand    [24.9]     [27035.]     [2158.93596939]     7967314.833596482
+Nigeria    [3.4]     [76.2]     [18.21189189]     265.58760711931444
+North Macedonia    [2.5]     [21.]     [8.0137931]     20.439189570517524
+Norway    [14.8]     [607.3]     [123.43121693]     15818.33602093947
+Oman    [2.8]     [3.6]     [3.03333333]     0.2196078431372549
+Pakistan    [3.9]     [68.7]     [21.259]     241.1473120300752
+Palestine    [3.2]     [10.7]     [6.04187192]     5.015168511925084
+Panama    [2.4]     [27.5]     [7.83059701]     30.977438245183063
+Paraguay    [2.2]     [128.5]     [16.10792079]     531.8474498194236
+Peru    [2.7]     [50.]     [8.65576923]     43.72557924003707
+Philippines    [4.2]     [42.3]     [15.92891247]     48.15491844912241
+Poland    [2.]     [79.7]     [21.0982906]     435.2809442409442
+Portugal    [4.9]     [116.]     [32.62829268]     590.9713459359532
+Qatar    [2.5]     [57.3]     [15.95588972]     100.09987279757182
+Romania    [3.4]     [61.]     [14.74511278]     165.30509691313713
+Russia    [10.3]     [1796.6]     [58.77567568]     23163.86636569395
+Rwanda    [16.8]     [868.8]     [125.30187668]     13737.391997463172
+Saudi Arabia    [5.2]     [706.7]     [104.55476773]     9076.271633347715
+Senegal    [1.8]     [78.]     [19.08655257]     265.89586030011026
+Serbia    [2.3]     [124.9]     [27.74914005]     1007.8035003207417
+Singapore    [3.3]     [6718.3]     [1600.10781671]     2702749.436584833
+Slovakia    [5.6]     [1000.]     [126.7925]     57116.81202380952
+Slovenia    [3.1]     [1000.]     [87.8131068]     42087.02154347672
+South Africa    [3.1]     [65.2]     [15.11078431]     136.92450137303078
+South Korea    [20.5]     [1876.5]     [166.40066667]     48524.197104677056
+South Sudan    [4.1]     [761.4]     [51.44155844]     4030.682439299831
+Spain    [2.3]     [767.9]     [28.26186441]     2322.358324930779
+Sri Lanka    [3.]     [825.]     [87.21793612]     12937.453444039651
+Sweden    [4.]     [150.2]     [24.63832117]     800.6090746236732
+Switzerland    [3.7]     [250.]     [37.37844311]     2678.5259121396844
+Taiwan    [36.1]     [3895.1]     [375.94731935]     156022.94624534342
+Thailand    [3.5]     [1000.]     [318.3406181]     102945.96823536305
+Togo    [7.3]     [265.]     [46.03475]     1312.337619047619
+Trinidad and Tobago    [2.]     [281.1]     [39.18834951]     2567.363026940697
+Tunisia    [3.2]     [4.1]     [3.66428571]     0.2197802197802198
+Turkey    [5.2]     [77.8]     [32.00963542]     513.1222190491733
+Uganda    [6.2]     [1251.7]     [91.88305085]     23278.115231177217
+Ukraine    [2.]     [26.9]     [8.11752022]     28.02964959568733
+United Arab Emirates    [41.5]     [5951.]     [257.30712644]     365594.14257111074
+United Kingdom    [3.3]     [595.]     [93.585]     11739.617518400222
+United States    [5.]     [26.3]     [15.36707317]     31.501252310811616
+Uruguay    [3.7]     [2412.6]     [115.50913838]     60145.69844025536
+Vietnam    [63.]     [44258.7]     [4957.93306452]     67907501.94302386
+Zambia    [3.3]     [545.5]     [48.93969072]     3591.155012120728
+Zimbabwe    [3.5]     [1125.9]     [43.82005814]     9485.534612516103
+
+ ~~~~~~~ Question 14 ~~~~~~~ 
+
+Vaccinated by at least one dose:
+
+Afghanistan --> [240000.]
+Africa --> [11840475.]
+Albania --> [6073.]
+Algeria --> EMPTY
+Andorra --> [21733.]
+Angola --> [395447.]
+Anguilla --> [5835.]
+Antigua and Barbuda --> [29754.]
+Argentina --> [6149835.]
+Armenia --> [565.]
+Aruba --> [49351.]
+Asia --> [1.81141406e+08]
+Australia --> [159294.]
+Austria --> [2018702.]
+Azerbaijan --> [934906.]
+Bahamas --> [15000.]
+Bahrain --> [652170.]
+Bangladesh --> [5798880.]
+Barbados --> [71350.]
+Belarus --> [244000.]
+Belgium --> [2656058.]
+Belize --> [38176.]
+Benin --> EMPTY
+Bermuda --> [30094.]
+Bhutan --> [579679.]
+Bolivia --> [431138.]
+Bosnia and Herzegovina --> EMPTY
+Botswana --> [31628.]
+Brazil --> [26687711.]
+Brunei --> [2323.]
+Bulgaria --> [558405.]
+Burkina Faso --> EMPTY
+Burundi --> EMPTY
+Cambodia --> [1293974.]
+Cameroon --> [400.]
+Canada --> [10804552.]
+Cape Verde --> [2184.]
+Cayman Islands --> [34786.]
+Central African Republic --> EMPTY
+Chad --> EMPTY
+Chile --> [7946284.]
+China --> EMPTY
+Colombia --> [2961023.]
+Comoros --> EMPTY
+Congo --> [14297.]
+Costa Rica --> [450593.]
+Cote d'Ivoire --> [109077.]
+Croatia --> [621077.]
+Cuba --> EMPTY
+Curacao --> [67614.]
+Cyprus --> [165558.]
+Czechia --> [1861664.]
+Democratic Republic of Congo --> EMPTY
+Denmark --> [1192439.]
+Djibouti --> [10246.]
+Dominica --> [18237.]
+Dominican Republic --> [909898.]
+Ecuador --> [514854.]
+Egypt --> [660000.]
+El Salvador --> [674495.]
+Equatorial Guinea --> [47410.]
+Eritrea --> EMPTY
+Estonia --> [309656.]
+Eswatini --> [31846.]
+Ethiopia --> EMPTY
+Europe --> [1.44554665e+08]
+European Union --> [93849541.]
+Faeroe Islands --> [11751.]
+Falkland Islands --> [2632.]
+Fiji --> [56000.]
+Finland --> [1485461.]
+France --> [13834667.]
+Gabon --> [5362.]
+Gambia --> [16735.]
+Georgia --> [34897.]
+Germany --> [18965663.]
+Ghana --> [842521.]
+Gibraltar --> [35973.]
+Greece --> [2004512.]
+Greenland --> [8561.]
+Grenada --> [9821.]
+Guatemala --> [163431.]
+Guernsey --> [32969.]
+Guinea --> [87288.]
+Guinea-Bissau --> EMPTY
+Guyana --> [111825.]
+Haiti --> EMPTY
+Honduras --> [55000.]
+Hong Kong --> [828312.]
+Hungary --> [3576705.]
+Iceland --> [80721.]
+India --> [1.16936487e+08]
+Indonesia --> [11623251.]
+International --> EMPTY
+Iran --> [518904.]
+Iraq --> [298377.]
+Ireland --> [934980.]
+Isle of Man --> [53991.]
+Israel --> [5376918.]
+Italy --> [12320914.]
+Jamaica --> [135473.]
+Japan --> [1667994.]
+Jersey --> [49413.]
+Jordan --> [607381.]
+Kazakhstan --> [858566.]
+Kenya --> [750471.]
+Kosovo --> [16132.]
+Kuwait --> [822000.]
+Kyrgyzstan --> [2100.]
+Laos --> [106105.]
+Latvia --> [216787.]
+Lebanon --> [231146.]
+Lesotho --> [16000.]
+Liberia --> EMPTY
+Libya --> [750.]
+Liechtenstein --> [7229.]
+Lithuania --> [630760.]
+Luxembourg --> [125739.]
+Macao --> [59402.]
+Madagascar --> EMPTY
+Malawi --> [267293.]
+Malaysia --> [771829.]
+Maldives --> [288903.]
+Mali --> [26226.]
+Malta --> [211985.]
+Marshall Islands --> EMPTY
+Mauritania --> [2930.]
+Mauritius --> [117323.]
+Mexico --> [11961104.]
+Micronesia (country) --> EMPTY
+Moldova --> [108760.]
+Monaco --> [12094.]
+Mongolia --> EMPTY
+Montenegro --> [39426.]
+Montserrat --> [1284.]
+Morocco --> [4723635.]
+Mozambique --> [57305.]
+Myanmar --> [1000000.]
+Namibia --> [4620.]
+Nauru --> [168.]
+Nepal --> [1989248.]
+Netherlands --> [3635235.]
+New Zealand --> [140580.]
+Nicaragua --> [61625.]
+Niger --> [1366.]
+Nigeria --> [1158582.]
+North America --> [1.64724513e+08]
+North Macedonia --> [49804.]
+Northern Cyprus --> [60642.]
+Norway --> [1189900.]
+Oceania --> [359623.]
+Oman --> [198563.]
+Pakistan --> [1300000.]
+Palestine --> [169856.]
+Panama --> [421295.]
+Papua New Guinea --> [1081.]
+Paraguay --> [86305.]
+Peru --> [814640.]
+Philippines --> [1397628.]
+Poland --> [7526598.]
+Portugal --> [2163196.]
+Qatar --> [100000.]
+Romania --> [2921600.]
+Russia --> [11312625.]
+Rwanda --> [349702.]
+Saint Helena --> [3563.]
+Saint Kitts and Nevis --> [11451.]
+Saint Lucia --> [20247.]
+Saint Vincent and the Grenadines --> EMPTY
+Samoa --> EMPTY
+San Marino --> [17368.]
+Sao Tome and Principe --> [9724.]
+Saudi Arabia --> EMPTY
+Senegal --> [395635.]
+Serbia --> [1930858.]
+Seychelles --> [66497.]
+Sierra Leone --> [42566.]
+Singapore --> [1364124.]
+Slovakia --> [1013445.]
+Slovenia --> [408131.]
+Solomon Islands --> [2000.]
+Somalia --> [117567.]
+South Africa --> [292623.]
+South America --> [47115090.]
+South Korea --> [2260639.]
+South Sudan --> [947.]
+Spain --> [10403462.]
+Sri Lanka --> [925242.]
+Sudan --> [140227.]
+Suriname --> [36503.]
+Sweden --> [2086142.]
+Switzerland --> [1453331.]
+Syria --> [2500.]
+Taiwan --> [32389.]
+Tajikistan --> EMPTY
+Tanzania --> EMPTY
+Thailand --> [949124.]
+Timor --> [2629.]
+Togo --> [160000.]
+Tonga --> [500.]
+Trinidad and Tobago --> [16462.]
+Tunisia --> [279890.]
+Turkey --> [13114373.]
+Turks and Caicos Islands --> [14300.]
+Uganda --> [268317.]
+Ukraine --> [522383.]
+United Arab Emirates --> [5081853.]
+United Kingdom --> [33508590.]
+United States --> [1.38644724e+08]
+Uruguay --> [1122340.]
+Uzbekistan --> [458555.]
+Vanuatu --> EMPTY
+Vatican --> EMPTY
+Venezuela --> [250000.]
+Vietnam --> [198972.]
+World --> [5.49735772e+08]
+Yemen --> EMPTY
+Zambia --> [12543.]
+Zimbabwe --> [319732.]
+
+ ~~~~~~~ Question 15 ~~~~~~~ 
+
+Fully vaccinated :
+
+Afghanistan --> EMPTY
+Africa --> [4714005.]
+Albania --> [655.]
+Algeria --> EMPTY
+Andorra --> [4681.]
+Angola --> EMPTY
+Anguilla --> EMPTY
+Antigua and Barbuda --> EMPTY
+Argentina --> [867444.]
+Armenia --> EMPTY
+Aruba --> [19928.]
+Asia --> [52792298.]
+Australia --> EMPTY
+Austria --> [779722.]
+Azerbaijan --> [477575.]
+Bahamas --> EMPTY
+Bahrain --> [516480.]
+Bangladesh --> [2155296.]
+Barbados --> EMPTY
+Belarus --> [84500.]
+Belgium --> [748048.]
+Belize --> EMPTY
+Benin --> EMPTY
+Bermuda --> [22243.]
+Bhutan --> EMPTY
+Bolivia --> [188656.]
+Bosnia and Herzegovina --> EMPTY
+Botswana --> EMPTY
+Brazil --> [11042940.]
+Brunei --> EMPTY
+Bulgaria --> [162765.]
+Burkina Faso --> EMPTY
+Burundi --> EMPTY
+Cambodia --> [684574.]
+Cameroon --> EMPTY
+Canada --> [1008649.]
+Cape Verde --> EMPTY
+Cayman Islands --> [28988.]
+Central African Republic --> EMPTY
+Chad --> EMPTY
+Chile --> [6162713.]
+China --> EMPTY
+Colombia --> [1357291.]
+Comoros --> EMPTY
+Congo --> EMPTY
+Costa Rica --> [247734.]
+Cote d'Ivoire --> EMPTY
+Croatia --> [164792.]
+Cuba --> EMPTY
+Curacao --> [16402.]
+Cyprus --> [58794.]
+Czechia --> [942242.]
+Democratic Republic of Congo --> EMPTY
+Denmark --> [565934.]
+Djibouti --> EMPTY
+Dominica --> [4818.]
+Dominican Republic --> [600000.]
+Ecuador --> [196350.]
+Egypt --> EMPTY
+El Salvador --> [24074.]
+Equatorial Guinea --> [8389.]
+Eritrea --> EMPTY
+Estonia --> [96463.]
+Eswatini --> EMPTY
+Ethiopia --> EMPTY
+Europe --> [56000448.]
+European Union --> [34459033.]
+Faeroe Islands --> [5529.]
+Falkland Islands --> [1775.]
+Fiji --> EMPTY
+Finland --> [147915.]
+France --> [5390793.]
+Gabon --> [400.]
+Gambia --> EMPTY
+Georgia --> EMPTY
+Germany --> [5855864.]
+Ghana --> EMPTY
+Gibraltar --> [31999.]
+Greece --> [817113.]
+Greenland --> [4298.]
+Grenada --> EMPTY
+Guatemala --> [1840.]
+Guernsey --> [13618.]
+Guinea --> [37213.]
+Guinea-Bissau --> EMPTY
+Guyana --> [1771.]
+Haiti --> EMPTY
+Honduras --> [2639.]
+Hong Kong --> [424849.]
+Hungary --> [1552685.]
+Iceland --> [32609.]
+India --> [21443345.]
+Indonesia --> [6699327.]
+International --> EMPTY
+Iran --> [148298.]
+Iraq --> EMPTY
+Ireland --> [382185.]
+Isle of Man --> [15657.]
+Israel --> [5008438.]
+Italy --> [5156388.]
+Jamaica --> EMPTY
+Japan --> [849051.]
+Jersey --> [27772.]
+Jordan --> [124671.]
+Kazakhstan --> [143239.]
+Kenya --> EMPTY
+Kosovo --> EMPTY
+Kuwait --> [38000.]
+Kyrgyzstan --> EMPTY
+Laos --> [30921.]
+Latvia --> [37877.]
+Lebanon --> [143801.]
+Lesotho --> EMPTY
+Liberia --> EMPTY
+Libya --> EMPTY
+Liechtenstein --> [3228.]
+Lithuania --> [246835.]
+Luxembourg --> [47414.]
+Macao --> [32361.]
+Madagascar --> EMPTY
+Malawi --> EMPTY
+Malaysia --> [489108.]
+Maldives --> [69802.]
+Mali --> EMPTY
+Malta --> [99574.]
+Marshall Islands --> EMPTY
+Mauritania --> EMPTY
+Mauritius --> EMPTY
+Mexico --> [5646105.]
+Micronesia (country) --> EMPTY
+Moldova --> [11494.]
+Monaco --> [10859.]
+Mongolia --> EMPTY
+Montenegro --> [19881.]
+Montserrat --> [467.]
+Morocco --> [4217485.]
+Mozambique --> EMPTY
+Myanmar --> [40000.]
+Namibia --> [128.]
+Nauru --> EMPTY
+Nepal --> EMPTY
+Netherlands --> [943197.]
+New Zealand --> [42771.]
+Nicaragua --> EMPTY
+Niger --> EMPTY
+Nigeria --> EMPTY
+North America --> [1.00903887e+08]
+North Macedonia --> EMPTY
+Northern Cyprus --> [48848.]
+Norway --> [306845.]
+Oceania --> [42771.]
+Oman --> [46258.]
+Pakistan --> EMPTY
+Palestine --> [43382.]
+Panama --> [187662.]
+Papua New Guinea --> EMPTY
+Paraguay --> [12361.]
+Peru --> [567082.]
+Philippines --> [214792.]
+Poland --> [2543112.]
+Portugal --> [811552.]
+Qatar --> EMPTY
+Romania --> [1743820.]
+Russia --> [6767873.]
+Rwanda --> EMPTY
+Saint Helena --> [1009.]
+Saint Kitts and Nevis --> EMPTY
+Saint Lucia --> EMPTY
+Saint Vincent and the Grenadines --> EMPTY
+Samoa --> EMPTY
+San Marino --> [8657.]
+Sao Tome and Principe --> EMPTY
+Saudi Arabia --> EMPTY
+Senegal --> EMPTY
+Serbia --> [1303093.]
+Seychelles --> [54668.]
+Sierra Leone --> [1781.]
+Singapore --> [849764.]
+Slovakia --> [416112.]
+Slovenia --> [174412.]
+Solomon Islands --> EMPTY
+Somalia --> EMPTY
+South Africa --> [292623.]
+South America --> [20877636.]
+South Korea --> [104538.]
+South Sudan --> EMPTY
+Spain --> [3862789.]
+Sri Lanka --> EMPTY
+Sudan --> EMPTY
+Suriname --> EMPTY
+Sweden --> [710636.]
+Switzerland --> [820650.]
+Syria --> EMPTY
+Taiwan --> EMPTY
+Tajikistan --> EMPTY
+Tanzania --> EMPTY
+Thailand --> [175029.]
+Timor --> EMPTY
+Togo --> EMPTY
+Tonga --> EMPTY
+Trinidad and Tobago --> EMPTY
+Tunisia --> [54056.]
+Turkey --> [7954030.]
+Turks and Caicos Islands --> [10000.]
+Uganda --> EMPTY
+Ukraine --> [5.]
+United Arab Emirates --> [3836521.]
+United Kingdom --> [12071810.]
+United States --> [93078040.]
+Uruguay --> [479253.]
+Uzbekistan --> EMPTY
+Vanuatu --> EMPTY
+Vatican --> EMPTY
+Venezuela --> EMPTY
+Vietnam --> EMPTY
+World --> [2.35331045e+08]
+Yemen --> EMPTY
+Zambia --> EMPTY
+Zimbabwe --> [46253.]
+
+ ~~~~~~~ Question 16 ~~~~~~~ 
+
+How many vaccinations are administered in each country so far?:
+
+Afghanistan --> [240000.]
+Africa --> [16766857.]
+Albania --> [400064.]
+Algeria --> [75000.]
+Andorra --> [26414.]
+Angola --> [395447.]
+Anguilla --> [5835.]
+Antigua and Barbuda --> [29754.]
+Argentina --> [7017279.]
+Armenia --> [565.]
+Aruba --> [69279.]
+Asia --> [4.65536992e+08]
+Australia --> [1914347.]
+Austria --> [2798424.]
+Azerbaijan --> [1412481.]
+Bahamas --> [15000.]
+Bahrain --> [1168650.]
+Bangladesh --> [7954176.]
+Barbados --> [71350.]
+Belarus --> [328500.]
+Belgium --> [3404106.]
+Belize --> [38176.]
+Benin --> EMPTY
+Bermuda --> [52337.]
+Bhutan --> [579679.]
+Bolivia --> [619794.]
+Bosnia and Herzegovina --> [15000.]
+Botswana --> [31628.]
+Brazil --> [37730651.]
+Brunei --> [2323.]
+Bulgaria --> [721170.]
+Burkina Faso --> EMPTY
+Burundi --> EMPTY
+Cambodia --> [1978548.]
+Cameroon --> [400.]
+Canada --> [11813201.]
+Cape Verde --> [2184.]
+Cayman Islands --> [63774.]
+Central African Republic --> EMPTY
+Chad --> EMPTY
+Chile --> [14108997.]
+China --> [2.20309e+08]
+Colombia --> [4318314.]
+Comoros --> EMPTY
+Congo --> [14297.]
+Costa Rica --> [698327.]
+Cote d'Ivoire --> [109077.]
+Croatia --> [785869.]
+Cuba --> EMPTY
+Curacao --> [84016.]
+Cyprus --> [224352.]
+Czechia --> [2803645.]
+Democratic Republic of Congo --> EMPTY
+Denmark --> [1758373.]
+Djibouti --> [10246.]
+Dominica --> [23055.]
+Dominican Republic --> [1509898.]
+Ecuador --> [711204.]
+Egypt --> [660000.]
+El Salvador --> [698569.]
+Equatorial Guinea --> [55799.]
+Eritrea --> EMPTY
+Estonia --> [406119.]
+Eswatini --> [31846.]
+Ethiopia --> [430000.]
+Europe --> [2.01420614e+08]
+European Union --> [1.28765739e+08]
+Faeroe Islands --> [17280.]
+Falkland Islands --> [4407.]
+Fiji --> [56000.]
+Finland --> [1633376.]
+France --> [19225460.]
+Gabon --> [5762.]
+Gambia --> [16735.]
+Georgia --> [34897.]
+Germany --> [24821527.]
+Ghana --> [842521.]
+Gibraltar --> [67972.]
+Greece --> [2821625.]
+Greenland --> [12859.]
+Grenada --> [9821.]
+Guatemala --> [165271.]
+Guernsey --> [46587.]
+Guinea --> [124501.]
+Guinea-Bissau --> EMPTY
+Guyana --> [113596.]
+Haiti --> EMPTY
+Honduras --> [57639.]
+Hong Kong --> [1253161.]
+Hungary --> [5129390.]
+Iceland --> [113330.]
+India --> [1.38379832e+08]
+Indonesia --> [18322578.]
+International --> EMPTY
+Iran --> [667202.]
+Iraq --> [298377.]
+Ireland --> [1317165.]
+Isle of Man --> [69648.]
+Israel --> [10385356.]
+Italy --> [17473753.]
+Jamaica --> [135473.]
+Japan --> [2517045.]
+Jersey --> [77185.]
+Jordan --> [732052.]
+Kazakhstan --> [1001805.]
+Kenya --> [750471.]
+Kosovo --> [16132.]
+Kuwait --> [860000.]
+Kyrgyzstan --> [2100.]
+Laos --> [137026.]
+Latvia --> [254664.]
+Lebanon --> [374947.]
+Lesotho --> [16000.]
+Liberia --> EMPTY
+Libya --> [750.]
+Liechtenstein --> [10457.]
+Lithuania --> [877595.]
+Luxembourg --> [173153.]
+Macao --> [91763.]
+Madagascar --> EMPTY
+Malawi --> [267293.]
+Malaysia --> [1260937.]
+Maldives --> [358705.]
+Mali --> [26226.]
+Malta --> [311559.]
+Marshall Islands --> EMPTY
+Mauritania --> [2930.]
+Mauritius --> [117323.]
+Mexico --> [16214484.]
+Micronesia (country) --> EMPTY
+Moldova --> [120254.]
+Monaco --> [22953.]
+Mongolia --> [660548.]
+Montenegro --> [59307.]
+Montserrat --> [1751.]
+Morocco --> [8941120.]
+Mozambique --> [57305.]
+Myanmar --> [1040000.]
+Namibia --> [4748.]
+Nauru --> [168.]
+Nepal --> [1989248.]
+Netherlands --> [5039385.]
+New Zealand --> [183351.]
+Nicaragua --> [61625.]
+Niger --> [1366.]
+Nigeria --> [1158582.]
+North America --> [2.58169749e+08]
+North Macedonia --> [49804.]
+Northern Cyprus --> [109490.]
+Norway --> [1496745.]
+Oceania --> [2157447.]
+Oman --> [244821.]
+Pakistan --> [1300000.]
+Palestine --> [213238.]
+Panama --> [608957.]
+Papua New Guinea --> [1081.]
+Paraguay --> [98666.]
+Peru --> [1381722.]
+Philippines --> [1612420.]
+Poland --> [10069710.]
+Portugal --> [2974770.]
+Qatar --> [1394781.]
+Romania --> [4665420.]
+Russia --> [18080498.]
+Rwanda --> [349702.]
+Saint Helena --> [4572.]
+Saint Kitts and Nevis --> [11451.]
+Saint Lucia --> [23861.]
+Saint Vincent and the Grenadines --> [12764.]
+Samoa --> EMPTY
+San Marino --> [26025.]
+Sao Tome and Principe --> [9724.]
+Saudi Arabia --> [8052933.]
+Senegal --> [395635.]
+Serbia --> [3233951.]
+Seychelles --> [121165.]
+Sierra Leone --> [44347.]
+Singapore --> [2213888.]
+Slovakia --> [1429557.]
+Slovenia --> [582543.]
+Solomon Islands --> [2000.]
+Somalia --> [117567.]
+South Africa --> [292623.]
+South America --> [67992726.]
+South Korea --> [2365177.]
+South Sudan --> [947.]
+Spain --> [14266251.]
+Sri Lanka --> [925242.]
+Sudan --> [140227.]
+Suriname --> [36503.]
+Sweden --> [2796778.]
+Switzerland --> [2273981.]
+Syria --> [2500.]
+Taiwan --> [42523.]
+Tajikistan --> EMPTY
+Tanzania --> EMPTY
+Thailand --> [1124153.]
+Timor --> [2629.]
+Togo --> [160000.]
+Tonga --> [500.]
+Trinidad and Tobago --> [16462.]
+Tunisia --> [333946.]
+Turkey --> [21068403.]
+Turks and Caicos Islands --> [24300.]
+Uganda --> [268317.]
+Ukraine --> [522388.]
+United Arab Emirates --> [10194266.]
+United Kingdom --> [45580400.]
+United States --> [2.2564046e+08]
+Uruguay --> [1601593.]
+Uzbekistan --> [458555.]
+Vanuatu --> EMPTY
+Vatican --> EMPTY
+Venezuela --> [250000.]
+Vietnam --> [198972.]
+World --> [1.01204438e+09]
+Yemen --> EMPTY
+Zambia --> [12543.]
+Zimbabwe --> [365985.]

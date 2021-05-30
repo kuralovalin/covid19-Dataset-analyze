@@ -25,10 +25,7 @@ def part1():
     df = pd.read_excel(fileName, sheet_name='Sheet1', usecols="C")
     states = df.to_numpy()
     #numpy.set_printoptions(threshold=sys.maxsize)
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~ Probability and Statistics ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Homework # 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Alina Kuralova ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   171044094 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
     print('\n ~~~~~~~ Question 1 ~~~~~~~ \n')
     print('Counties of the dataset:\n')
